@@ -1,5 +1,8 @@
 # reMarkable template manager
 
+## Existing solution
+- (I think I saw 1 on GitHub. That might be the final nail to this coffin)
+
 ## Goal
 
 - Make it easy to manage templates in your reMarkable tablet
