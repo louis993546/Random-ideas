@@ -8,7 +8,6 @@
 ## Consists of
 
 - Phone app
-- Smartwatch app
 - REST API
 - Database
 
@@ -22,4 +21,5 @@
 
 ## Slightly long term future
 
+- Smartwatch app
 - Statistics
