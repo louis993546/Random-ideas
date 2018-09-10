@@ -23,22 +23,26 @@ not good. That makes me think about what I would do to improve the experience
 - Landlords can be very unpredictable/lazy
 - Usually no easy way to communicate with roommates, landlords, and neighbors
 - Contracts & Terms & Conditions are usually very hard to understand
-- Fee are often not completely discoded
+- Fee are often not completely disclosed
 
 ## What I think could be the solution
 
 <b>A housing company that owns & maintains apartments through out the city</b>
 
-- I don't think making another website that connect tennent and landlords
-together is gonna solve anything (read xkcd ??)
+- I don't think making another website that connect tenant and landlords
+together is gonna solve anything (i.e. [xkcd 927](https://xkcd.com/927/))
 - I think what Medici (QUATERS specifically) and Neon Wood has been doing is a
 step in the right direction
   - What I like
     - Information of the living environment documented online
-    - Looking to improvement the atmosphere (i.e. Community building)
+    - Looking to improvement the atmosphere (i.e. Community forming)
+    - Decent outreach team (quick responses mostly)
   - What I don't like
     - Somewhat false advertising on the price
-    - Lack of actual personal connection with their tennens, e.g. bad
+      - Radio tax not included
+      - Fixes not really included
+      - Admin fee not included
+    - Lack of actual personal connection with their tenant, e.g. bad
     maintenance speed
 - What I would do exactly
   - Rent out apartments through out the city
@@ -48,7 +52,7 @@ step in the right direction
     - Location
     - Pricing
     - etc.
-  - One of the tennent becomes the manager-type guy of the apartment
+  - One of the tenant becomes the manager-type guy of the apartment
     - Why
       - Make the channel of communication easier to deal with
     - Responsibility
@@ -95,11 +99,48 @@ step in the right direction
       - Dishwasher (if possible)
   - General business model
     - Get people to move in, and keep them w/ love and care
-    - Let the experience of the tennens to be the promotion
+    - Let the experience of the tenants to be the promotion
     - Low profit margin (to make sure the propagation of brand name first)
+  - Long term business model (if somehow it survived)
+    - Development of open-source property management system
+      - Self host
+      - PaaS -> earn something
+    - Collaborate with other companies
+      - Coworking space
+        - Discount on renting a space -> get commission
+      - Government
+        - Housing in general
+      - Furniture & Appliance companies
+        - Buy new batches of equipment for cheap
+        - "Product placement" IRL
+    - Bodega
+      - Rent out some spaces as small shops
+    - Consultant
+      - Assist people from overseas to develop their own local community
+      - If they end up actually successful, acquisition should be possible
+    - Event space rental
+      - Meetings
+    - Collaborate with conferences
+      - Short term housing = promotion for the brand
+      - Prepare for overseas expansion
+    - Relocation assistance package
+      - Help them find room
+      - Help them find job (if applicable)
+      - Help them deal with visa requirements
   - Business itself
     - Friendly environment (just like the places that they are running)
     - Provide housing assistance
-      - especially if they can also act as the manager of the apartment
-    - Post all the information onto every platform (until it becomes not
-      necessary)
+      - especially if they can also act as the manager of the apartments
+    - 100% transparent compensation (see GitLab)
+  - As a nerd, what needs/can be done from the tech side
+    - Slack/Discord/FBM bots for automation
+      - Payment
+      - Q&A
+    - Make a website that actually looks good & works well
+      - Quick
+      - Responsive
+      - Information well presented
+    - When things starts to scale up & Slack/Discord failed to keep up
+      - Find out how to maintain the transparency & speed w/ better software
+        - In-house development (e.g. Loft)
+        - Something that's already available in market
