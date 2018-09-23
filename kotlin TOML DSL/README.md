@@ -4,7 +4,7 @@
 
 - I don't think it has been done before
 - I want to know more about TOML
-- I want to know more about building DSK w/ Kotlin
+- I want to know more about building DSL w/ Kotlin
 
 ## Resources
 
