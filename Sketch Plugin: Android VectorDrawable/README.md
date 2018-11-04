@@ -1,0 +1,21 @@
+# Sketch Plugin: Android VectorDrawable
+
+- There's got to be a better way to turn sketch artboard into `VectorDrawable`
+- What't the problem right now
+  - Android's `VectorDrawable` is quite limited
+  - Sketch's svg export is not garuntee to work on Android
+  - There is no easy way to debug which part of the svg tag is broken
+- Solution
+  - A sketch plugin that export straight to `VectorDrawable`
+  - Abilities
+    - Artboard -> svg (by sketch)
+    - Find tags that's not supported in Android and stop export
+    - Warning against big vectors and why that's not a good idea
+  - Nice to have abilities
+    - Optimization w/ SVGO
+    - Export to different versions of Android w/ different limitations
+    - Actually change the sketch file to use supported tags (e.g. instead of mask, change the shape of path)
+  - Implemtnataion
+    - [This is how Google converts svg to `VectorDrawable`](https://android.googlesource.com/platform/tools/base/+/master/sdk-common/src/main/java/com/android/ide/common/vectordrawable/Svg2Vector.java)
+    - (It's personal) I want to see how to do that in Kotlin Multiplatform
+    - For a sketch plugin, it needs to be JS
