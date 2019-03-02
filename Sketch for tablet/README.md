@@ -1,0 +1,22 @@
+# Sketch for tablet
+
+- Sketch is still the best, but it requires a Mac
+- All the computer-based tools makes it harder to test it on real devices
+- A lot of tablets now should be powerful enough to do complex layout shit
+- Ideally cross-platform, but I don't know if there's standard API for stylus support
+- It'll be more realistic to be an iOS only app
+- Talk to designers to know what they are looking for
+- What do I want?
+  - Easy access to online resources (Google Drive, Dropbox, Upsplash, Stock photos, etc)
+  - Git-based version control
+    - If the file is not 1 zip file, but rather a folder, it can make diff possible!
+    - Maybe designers can also make pull requests to update resources directly to the repo!?
+  - Apple pencil support
+  - Test the prototype on the iPad itself
+  - Multi-display support (since in iOS each app need to specify that)
+  - Live-stream support (just for fun)
+  - To be an open-source app, not a service
+  - Works well with all the necessary file formats
+    - .psd/.ai/.xd to import stuff from the Adobe ecosystem
+    - .jpg/.png/.webp/.gif obviously
+    - .svg/.xml/.pdf/.9-patch for all the existing resources
