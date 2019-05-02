@@ -12,13 +12,13 @@
     - If this works it would be the biggest feature
 - Right now I am in favor of forking IntelliJ CE
     - It's code completion is just too good
-    - It's UI is flexible enough to accomudate the panels that needs to be added for the features
+    - It's UI is flexible enough to accommodate the panels that needs to be added for the features
 
 ## Headline feature: Arduino simulator
 
 - Technically that would be a project on it's own, but the integration is what makes it special
 - How it works (as a user)
-    - You code a bunch of stff
+    - You code a bunch of stuff
     - You click "Run" and select a new Arduino ${boardVariant} simulator
     - A Panel opens with all the pin's output
     - You can click on the pin to simulate button click
